@@ -9,7 +9,11 @@ spring:
       server:
         git:
           uri: https://github.com/idosinchuk/config-gitRepository-architecture-challenge
-
+          proxy:
+            https:
+              host: alca.proxy.corp.sopra
+              port: '8080'
+              
   # Spring properties in case you use different profiles
   profiles:
     active: dev
