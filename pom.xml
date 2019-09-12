@@ -11,11 +11,12 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.idosinchuk</groupId>
-	<artifactId>config-server-architecture-challenge</artifactId>
+
+	<groupId>com.idosinchuk.architecturechallenge.config</groupId>
+	<artifactId>SpringCloudConfig-ArchitectureChallenge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server-architecture-challenge</name>
-	<description>Microservice for Architecture Challenge with Spring Boot, Spring Cloud Config, etc.</description>
+	<name>SpringCloudConfig-ArchitectureChallenge</name>
+	<description>Spring Cloud Config for HandleMovies project for Spring Boot</description>
 
 	<!-- 2) Java and Spring Cloud versions -->
 	<properties>
